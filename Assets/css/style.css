@@ -24,7 +24,7 @@ body{
     background-color: #66ac92;
 }
 
-.output{
+#output{
     margin: 2%;
     height: 15%;
     width: 95%;
