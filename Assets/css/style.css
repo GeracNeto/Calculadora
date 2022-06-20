@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
 
 body{
     margin:0;
@@ -31,12 +32,14 @@ body{
     height: 18%;
     width: 95%;
     text-align: right;
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 1.5;
     background-color: #edd58f;
     color: #3a3132;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(57, 123, 139, 0.76);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
 }
 
 .buttons{
