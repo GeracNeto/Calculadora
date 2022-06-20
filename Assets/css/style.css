@@ -18,9 +18,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 35%;
-    height: 95%;
-    border: 2px solid;
+    width: 25%;
+    height: 90%;
     background-color: #386dbd;
     border-radius: 5%;
     padding: 1%;
@@ -28,14 +27,15 @@ body{
 
 #output{
     margin: 2%;
-    height: 15%;
+    height: 18%;
     width: 95%;
     text-align: right;
     font-size: 4rem;
     line-height: 1.5;
-    border: 1px solid;
     background-color: #edd58f;
     color: #3a3132;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(57, 123, 139, 0.76);
 }
 
 .buttons{
@@ -56,12 +56,34 @@ button{
     border: none;
 }
 
+#buttonC{
+    background-color: #fba726;
+    color: #0f4571;
+}
+
+#buttonEqual{
+    background-color: #167f0e;
+    color: #0f4571;
+}
+
 #buttonC:active{
     color: red;
 }
 
 #buttonEqual:active{
-    color: green;
+    color: red;
+}
+
+#buttonEqual:hover{
+    background-color: #41a037;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#buttonC:hover{
+    background-color: #ffe965;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 button:hover{
