@@ -1,9 +1,6 @@
 # Calculadora
 ## Calculadora feita em HTML, CSS e Javascript
 
-## Imagem do Projeto
-<hr>
+<hr> 
 
-<img src="/Assets/images/projeto.png" width="400px">
-
-
+<img src="/Assets/images/projeto_gif.gif">
